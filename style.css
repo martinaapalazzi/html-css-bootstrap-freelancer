@@ -1,6 +1,6 @@
 /* HEADER */
 
-.container  {
+.header-container  {
     background-color: var(--bs-primary);
     padding: 20px;
 }
@@ -20,9 +20,8 @@ a {
     height: 400px;
 }
 
-.green-container > :first-child {
-    width: 15%;
-    margin: 30px 0;
+.row > .col-12 > img {
+    width: 20%;
 }
 
 .green-container h1 {
@@ -30,14 +29,31 @@ a {
     color: white;
 }
 
-.flex-icon-hr {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.row {
+    border: 1px red dotted;
+    
 }
 
-.flex-icon-hr hr {
-    width: 100px;
-    height: 10px;
-    background-color: white;
+.col-12 {
+    padding-top: 15px;
+}
+
+p {
+    color: white;
+    text-transform: uppercase;
+}
+
+.black-icons {
+    color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.row > .col-4 > img {
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }

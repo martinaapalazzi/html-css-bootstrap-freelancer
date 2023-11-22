@@ -17,7 +17,7 @@ a {
 
 .green-container {
     background-color: #20c997;
-    height: 400px;
+    
 }
 
 .row > .col-12 > img {
@@ -29,16 +29,11 @@ a {
     color: white;
 }
 
-.row {
-    border: 1px red dotted;
-    
-}
-
 .col-12 {
-    padding-top: 15px;
+    padding: 10px 0;
 }
 
-p {
+.uppercase {
     color: white;
     text-transform: uppercase;
 }
@@ -57,3 +52,41 @@ h2 {
     margin-bottom: 20px;
     border-radius: 20px;
 }
+
+h3 {
+    text-transform: uppercase;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.no-uppercase {
+    color: white;
+    text-transform: lowercase;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px white solid;
+}
+
+
+
+
+/* <div class="row">
+            <div class="col-12">
+                <nav>
+                    <a href="#" class="button-flex">
+                        <i class="fa-solid fa-download" style="color: #ffffff;"></i>
+                        <p class="no-uppercase">
+                            Download
+                        </p>
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+*/

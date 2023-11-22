@@ -1,0 +1,14 @@
+/* HEADER */
+
+.header-container {
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}

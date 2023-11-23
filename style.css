@@ -1,92 +1,14 @@
 /* HEADER */
 
-.header-container  {
-    background-color: var(--bs-primary);
-    padding: 20px;
-}
-
-a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-}
 
 /* MAIN */ 
 
-/* 1ST SECTION */ 
-
-.green-container {
-    background-color: #20c997;
-    
-}
-
-.row > .col-12 > img {
-    width: 20%;
-}
-
-.green-container h1 {
-    text-transform: uppercase;
-    color: white;
-}
-
-.col-12 {
-    padding: 10px 0;
+.img-container {
+    width: 25%;
 }
 
 .uppercase {
-    color: white;
     text-transform: uppercase;
 }
 
-.black-icons {
-    color: black;
-}
 
-h2 {
-    text-transform: uppercase;
-    padding-top: 20px;
-}
-
-.row > .col-4 > img {
-    width: 70%;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-
-h3 {
-    text-transform: uppercase;
-    color: white;
-    text-transform: uppercase;
-    padding-top: 20px;
-}
-
-.no-uppercase {
-    color: white;
-    text-transform: lowercase;
-}
-
-.button-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    border: 1px white solid;
-}
-
-
-
-
-/* <div class="row">
-            <div class="col-12">
-                <nav>
-                    <a href="#" class="button-flex">
-                        <i class="fa-solid fa-download" style="color: #ffffff;"></i>
-                        <p class="no-uppercase">
-                            Download
-                        </p>
-                    </a>
-                </nav>
-            </div>
-        </div>
-
-*/
